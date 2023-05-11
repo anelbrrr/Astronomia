@@ -1,0 +1,45 @@
+h2 {
+	font-family:Century Gothic;
+	color:#FFFFFF;background-color:#DCA7DB;
+	width:350px;
+	border:10px solid #520450;
+}
+
+h3 {
+	font-family:Century Gothic;
+}
+
+a {
+	font-family:Century Gothic;
+}
+
+h1 {
+	font-family:Century Gothic;
+}
+
+.menu {
+	width: 100%;
+	background:#000;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu li a {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #ccc;
+	color: #000;
+
+}
+

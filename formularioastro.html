@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="estil.css">
+   <title>Formulario</title>
+<body background="a.gif"></body>
+</head>
+<body>
+
+<center><h1>LA ASTRONOMIA</h1></center>
+
+<img src="plan.gif" width="550" height="400" align="right">
+   <form>
+      <fieldset>
+   <label for="nombre">¿Cual fue tu tema favorito?</label>
+   <input type="text" id="tema">
+
+   <label for="nombre">¿Cual fue tu tema menos favorito?</label>
+   <input type="text" id="menos">
+
+   <label for="nombre">¿Que son los exoplanetas?</label>
+   <input type="text" id="exoplanetas">
+
+   <label for="nombre">¿Cual es tu opinion de esta página?</label>
+   <input type="text" id="big">
+   </fieldset>
+
+   <fieldset>
+   <label>¿Cuantos planetas tiene el sistema solar?</label>
+      <input type="checkbox"id="planetas" name="planetas"/>9
+      <input type="checkbox"id="planetas" name="planetas"/>8
+      <input type="checkbox"id="planetas" name="planetas"/>7
+   </fieldset>
+
+   <fieldset>
+   <label>¿Cuantas fases tiene la luna?</label>
+      <input type="radio"id="planetas" name="planetas"/>15
+      <input type="radio"id="planetas" name="planetas"/>8
+      <input type="radio"id="planetas" name="planetas"/>4
+   </fieldset>
+
+<script type="text/javascript">
+   function FormularioDevuelve () 
+   {
+      var respuesta = confirm("Estas seguro de enviar el formulario?");
+      alert('Gracias por enviar el formulario!!','');
+
+      if (respuesta == true) 
+      {
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+   }
+</script>   
+
+<center><input type="submit" value="Enviar formulario" name="enviar" onclick="return FormularioDevuelve()"></center>
+</form>
+
+</body>
+</html>
